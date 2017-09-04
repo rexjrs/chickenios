@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - ImageSlideshow (1.3.2):
+    - ImageSlideshow/Core (= 1.3.2)
+  - ImageSlideshow/Alamofire (1.3.2):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.3.2)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SwiftyJSON (3.1.4)
+  - TextFieldEffects (1.3.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageSlideshow
+  - ImageSlideshow/Alamofire
+  - SDWebImage
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
+
+PODFILE CHECKSUM: f8af5be1a9c564b9b2bc6123f025729fed0e0838
+
+COCOAPODS: 1.2.0
