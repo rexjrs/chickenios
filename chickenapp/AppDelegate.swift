@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         if UserDefaults.standard.string(forKey: "loginTokens") != nil{
             if let tokens = UserDefaults.standard.string(forKey: "loginTokens"){
-                loginTokens = JSON(tokens.data(using: .utf8))
+                loginTokens = JSON(tokens.data(using: .utf8)!)
                 if let customer = UserDefaults.standard.string(forKey: "customerData"){
-                    customerData = JSON(customer.data(using: .utf8))
+                    customerData = JSON(customer.data(using: .utf8)!)
                     authPass = true
                 }
             }
